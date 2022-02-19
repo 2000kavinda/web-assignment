@@ -3,3 +3,10 @@ body{
 	background-size: cover;
 	background-repeat: no-repeat;
 }
+
+img{
+	opacity:0.8;
+}
+img:hover{
+	opacity:1.0;
+}
