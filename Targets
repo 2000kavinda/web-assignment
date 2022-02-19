@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Targets</title>
+<link rel="stylesheet" href="targets.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;700&family=Poppins:wght@200;300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="header-container">
+        <div class="header">
+            <h1>T<span>ar</span>G<span>et</span>S</h1>
+        </div>
+        <div class="desc">
+            <p>Climate changes will, and already are, affecting every aspect of the hydrologic cycle.
+                 Actions are needed to improve our understanding of water-related risks from climate change and to explore and implement strategies to reduce these risks. 
+                 The Pacific Institute works to quantify climate change’s impacts on water systems and resources, cooperating with diverse stakeholders to identify 
+                 and develop solutions that promote more resilient water systems in the U.S. and abroad.
+                 It is not too late to act to slow the rate of climate change and to reduce the ultimate cost to public health, ecosystems, and the economy. </p>
+        </div>
+    </div>
+    <div class="sub-heading">
+        <h3>Target List</h3>
+    </div>
+    <div class="list">
+        <div class="tr">
+            <div class="image1">
+                <img src="./pic-1.jpg" alt="pic1"/>
+            </div>
+            <span class="list-desc">Strengthen resilience and adaptive capacity to climate-related hazards and natural disasters in all countries</span>
+        </div>
+        <div class="tr">
+            <div class="image1">
+                <img src="./pic-2.jpg" alt="pic2"/>
+            </div>
+            <span class="list-desc">Integrate climate change measures into national policies, strategies and planning</span>
+        </div>
+        <div class="tr">
+            <div class="image1">
+                <img src="./pic-3.jpg" alt="pic3"/>
+            </div>
+            <span class="list-desc">Improve education, awareness-raising and human and institutional capacity on climate 
+                change mitigation, adaptation, impact reduction and early warning</span>
+        </div>
+        <div class="tr">
+            <div class="image1">
+                <img src="./pic-4.jpg" alt="pic4"/>
+            </div>
+            <span class="list-desc">Implement the commitment undertaken by developed-country parties to the United Nations Framework Convention on 
+                Climate Change to a goal of mobilizing jointly $100 billion annually by 2020 from all sources to address the needs of developing countries 
+                in the context of meaningful mitigation actions and transparency on implementation and fully operationalize the Green Climate Fund through
+                 its capitalization as soon as possible</span>
+        </div>
+        <div class="tr">
+            <div class="image1">
+                <img src="./pic-5.jpg" alt="pic5"/>
+            </div>
+            <span class="list-desc">Promote mechanisms for raising capacity for effective climate change-related planning and management in least developed 
+                countries and small island developing States, including focusing on women, youth and local and marginalized communities</span>
+        </div>
+    </div>
+
+
+</body>
+</html>
