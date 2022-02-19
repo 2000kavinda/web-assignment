@@ -4,6 +4,10 @@ body{
 	background-repeat: no-repeat;
 }
 
+div{
+	padding-bottom: 30px;
+}
+
 .header-1{
 	font-family: 'Merriweather', serif;
 	width: 100%;
