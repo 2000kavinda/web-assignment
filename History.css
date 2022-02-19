@@ -4,6 +4,25 @@ body{
 	background-repeat: no-repeat;
 }
 
+.header-1{
+	font-family: 'Merriweather', serif;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	text-align: center;
+	top: 50px;
+}
+
+.header-1 .header{
+	font-size: 50px;
+	margin-top: 70px;
+}
+
+.header-1 .header span{
+	color: blue;
+}
+
 img{
 	opacity:0.8;
 }
