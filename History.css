@@ -10,3 +10,6 @@ img{
 img:hover{
 	opacity:1.0;
 }
+img.rounded-corners{
+	border-radius: 30px;
+}
