@@ -1,13 +1,14 @@
 .header {
-    -webkit-text-stroke: 4px black;
+    -webkit-text-stroke: 4px rgb(41, 37, 37);
     
     text-align: center;
     font-size: 100px;
     
     background-image: url("1.jpg"); 
    
-    height: 500px;
+    height: 500px; 
     padding: 25px;
+    border: 2px solid rgb(55, 61, 52);
     background-position: center; 
     background-repeat: no-repeat; 
     background-size: cover; 
