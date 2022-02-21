@@ -1,0 +1,29 @@
+.header {
+    -webkit-text-stroke: 4px black;
+    
+    text-align: center;
+    font-size: 100px;
+    
+    background-image: url("1.jpg"); 
+   
+    height: 500px; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    
+  }
+body{
+	background-image: url('2.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+    font-family: Arial, Helvetica, sans-serif;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    width: 50%;
+  }
+
+  
