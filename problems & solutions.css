@@ -2,8 +2,8 @@ body {
   background-color:hsla(120,60%,70%,0.3);
 }
 
-h2 {
-  text-decoration: underline;
+h1 {
+  text-shadow: 3px 3px 8px gray;
 }
 
 img {
