@@ -10,17 +10,16 @@
 		<h2>Register</h2>
 	</div>
 	<form method="post" action="server.php">
-	<?php include('errors.php'); ?>
 		<div class="input-group">
-			<label>Username</label>
+			<label>Username (*required)</label>
 			<input type="text" name="username" required>
 		</div>
 		<div class="input-group">
-			<label>Email</label>
+			<label>Email (*required)</label>
 			<input type="text" name="email" required>
 		</div>
 		<div class="input-group">
-			<label>Password</label>
+			<label>Password (*required)</label>
 			<input type="password" name="password" required>
 		</div>
 		<div class="input-group">
