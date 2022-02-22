@@ -1,25 +1,29 @@
+<?php include('server.php');?>
 <!DOCTYPE html>
 <html>
 <head>
-	<title>registration </title>
+	<title>Registration </title>
+	<link rel="stylesheet" type="text/css" href="style1.css">
 </head>
 <body>
-<div class="container">
 	<div class="header">
-		<h2>Log In</h2>
+		<h2>Login</h2>
 	</div>
-	<form action="login.php" method="post">
-		<div>
-			<lable for="username">Username</lable>
-			<input type="text" name="username" required>
+	<form method="post" action="login.php">
+		<div class="input-group">
+			<label>Username</label>
+			<input type="text" name="username">
 		</div>
-		<div>
-			<lable for="password">Password</lable>
-			<input type="password" name="password_1" required>
+		<div class="input-group">
+			<label>Password</label>
+			<input type="password" name="password">
 		</div>
-		<button type="submit" name="login_user">Log In</button>
-		<p>Not a user ? <a href="registration.php"><b>Register Here</b></a></p>	
+		<div class="input-group">
+			<button type="submit" name="login" class="btn">Login</button>
+		</div>
+		<p>
+			Not yet a member? <a href="register.php">Sign up</a>
+		</p>
 	</form>
-	</div>
 </body>
 </html>
