@@ -4,7 +4,9 @@
 }
 body{
 	font-size: 120%;
-	background:#F8F8FF;
+    background-image: url('background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .header{
 	width: 30%;
