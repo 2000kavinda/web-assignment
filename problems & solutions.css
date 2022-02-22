@@ -1,5 +1,24 @@
-body {
-  background-color:hsla(120,60%,70%,0.3);
+.header {
+    -webkit-text-stroke: 4px rgb(41, 37, 37);
+    
+    text-align: center;
+    font-size: 80px;
+    
+    background-image: url("https://blogs.worldbank.org/sites/default/files/styles/hero/public/2021-03/political_economy_of_climate_change_1140x500.png?itok=w61mtypN"); 
+   
+    height: 300px; 
+    padding: 25px;
+    border: 2px solid rgb(55, 61, 52);
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    
+  }
+
+body{
+	background-image: url('https://img.freepik.com/free-photo/blue-sky-with-white-soft-clouds_64749-3051.jpg?size=626&ext=jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 
 h1,h2 {
@@ -10,7 +29,14 @@ img {
   border-radius: 8px;
 }
 
-img {
-  max-width: 100%;
-  height: auto;
+h1 {
+  font-size: 80px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+p {
+  font-size: 18px;
 }
