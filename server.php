@@ -42,6 +42,8 @@
 		if(mysqli_num_rows($result)==1){
 			$_SESSION['username']= $username;
 			header('location: Climateaction.html');
+		}else{
+			array_push($errors,"<b>wrong username/password combination</b>");
 		}
 	}
 	}
