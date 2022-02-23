@@ -2,7 +2,7 @@
     -webkit-text-stroke: 4px rgb(41, 37, 37);
     
     text-align: center;
-    font-size: 80px;
+    font-size: 40px;
     
     background-image: url("https://blogs.worldbank.org/sites/default/files/styles/hero/public/2021-03/political_economy_of_climate_change_1140x500.png?itok=w61mtypN"); 
    
@@ -29,14 +29,3 @@ img {
   border-radius: 8px;
 }
 
-h1 {
-  font-size: 80px;
-}
-
-h2 {
-  font-size: 30px;
-}
-
-p {
-  font-size: 18px;
-}
