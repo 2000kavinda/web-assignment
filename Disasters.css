@@ -6,12 +6,12 @@
     
     background-image: url("1.jpg"); 
    
-    height: 500px; 
-    padding: 25px;
-    border: 2px solid rgb(55, 61, 52);
-    background-position: center; 
-    background-repeat: no-repeat; 
-    background-size: cover; 
+  height: 500px; 
+  padding: 25px;
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover;
+  outline: #424e4d solid 10px;
     
   }
 body{
