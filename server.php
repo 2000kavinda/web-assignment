@@ -23,7 +23,7 @@
 		$sql = "INSERT INTO user(username,email,password) VALUES ('$username','$email','$password')";
 	mysqli_query($db, $sql);
 	$_SESSION['username']= $username;
-	header('location: Climateaction.html');
+	header('location: intro.html');
 	}
 }
 	if(isset($_POST['login'])){
@@ -41,7 +41,7 @@
 		$result=mysqli_query($db,$query);
 		if(mysqli_num_rows($result)==1){
 			$_SESSION['username']= $username;
-			header('location: Climateaction.html');
+			header('location: intro.html');
 		}else{
 			array_push($errors,"<b>wrong username/password combination</b>");
 		}
